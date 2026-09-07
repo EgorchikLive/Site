@@ -1,0 +1,372 @@
+body{
+	background-image: url(img/i.png);
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Kashima';
+	font-style: normal;
+	font-weight: 400;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+}
+li.music_button{
+	width: 48px;
+}
+button.Swagee{
+	background-color:#bcbba1; 
+	border: none;
+	width: 48px;
+	height: 48px;
+	border-radius: 24px;
+}
+button.Swagee:hover{
+	transition: 0.3s;
+	opacity: 0.5;
+	width: 48px;
+	height: 48px;
+}
+div.playPause{
+	width: 0; 
+	height: 0;
+	border-top: 14px solid transparent;
+	border-left: 24px solid #000;
+	border-bottom: 14px solid transparent;
+	margin-left: 8px;
+}
+nav.zad{
+	width: 1600px;
+	height: 96px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#e4e2c9;
+	font-size: 36px;
+}
+a.zad{
+	text-decoration: none;
+	color: black;
+}
+div.pract_zad{
+	background-color:#e4e2c9;
+	color: black;
+	font-size: 96px;
+	border-radius: 0 0 16px 16px;
+}
+img.logo{
+	width: 10%;
+	float: left;
+	margin-left: 36px;
+}
+ol{
+	list-style-type: none;
+	display: flex;
+	margin: 0px;
+	align-items: center;
+	margin-right: 40px;
+}
+li{
+	text-align: center;
+	margin-left: 4px;
+	margin-right: 4px;
+	
+}
+div.zad{
+	padding-left: auto;
+	padding-right: auto;
+	height: 36px;
+	width: 36px;
+	text-align: center;
+	
+}
+div.zad:hover{
+	transition: 0.3s;
+	background:#bcbba1;
+	padding-left: auto;
+	padding-right: auto;
+	height: 48px;
+	width: 48px;
+	border-radius: 10px;
+	text-align: center;
+}
+main{
+	margin-left:auto;
+	margin-right:auto;
+	width: 1600px;
+	position: center;
+}
+article.block{
+	background-color:#e4e2c9;
+	padding-left:32px;
+	padding-right:32px;
+	height: auto;
+	border-radius: 8px;
+	padding-bottom:32px;
+	margin-top:16px;
+}
+div.container{
+	display: flex;
+	justify-content: space-between;
+}
+div.expoz{
+	color:red;
+	padding-top:48px;
+	font-size: 72px;
+	padding-bottom:16px;
+	height:auto;
+}
+aside.battodo_img{
+	width: 315px;
+	height: 283px;
+	margin: 0px;
+	margin-right: 32px;
+}
+div.kendo{
+	width: 1180px;
+}
+text.kendo{
+	font-size: 32px;
+}
+aside.Sinkedo_img{
+	width: 315px;
+	height: 211px;
+	margin: 0px;
+	margin-right: 32px;
+}
+img.Sinkedo_img{
+	width: 315px;
+	height: 211px;
+}
+aside.Iaido_img{
+	width: 315px;
+	height: 211px;
+	margin: 0px;
+	margin-right: 32px;
+}
+img.Iaido_img{
+	width: 315px;
+	height: 211px;
+}
+aside.tameshigiri_img{
+	width: 315px;
+	height: auto;
+	margin: 0px;
+	margin-right: 32px;
+}
+img.tameshigiri_img{
+	width: 315px;
+	height: auto;
+}
+div.chemp_2021{
+	color:red;
+	padding-top:48px;
+	font-size: 72px;
+	text-align: center;
+	height:auto;
+}
+video{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+ 	height:auto;
+}
+div.button{
+	height: 96px;
+	display: flex;
+	justify-content: center;
+}
+button.button{
+	background-color:#e4e2c9; 
+	border-radius: 100px;
+	border: none;
+	color: #bcbba1;
+	padding: 2px 30px 2px 30px;
+	margin: auto;
+	position: center;
+  	display: block;
+	font-size: 56px;
+	font-family: 'Kashima';
+	font-style: normal;
+	font-weight: 400;
+}
+a.button{
+	text-decoration: none;
+}
+button.button:hover{
+	transition: 0.3s;
+	background-color:#bcbba1; 
+	border-radius: 100px;
+	border: none;
+	color: #e4e2c9;
+	padding: 5px 60px 5px 60px;
+	margin: auto;
+	position: center;
+  	display: block;
+	font-size: 64px;
+	font-family: 'Kashima';
+	font-style: normal;
+	font-weight: 400;
+}
+article.footer{
+	padding-left:32px;
+	padding-right:32px;
+	height: auto;
+	border-radius: 8px;
+	margin-top:16px;
+}
+ul.footer{
+	background:black;
+	border-radius: 10px;
+	width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #e4e2c9;
+	font-size: 32px;
+	padding-bottom: 16px;
+	padding-top: 16px;
+}
+li.footer{
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+div.footer:hover{
+	transition: 0.3s;
+	padding-left: auto;
+	padding-right: auto;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 48px;
+}
+a.footer{
+	color: #e4e2c9;
+	text-decoration: none;
+}
+@font-face {
+	font-display: swap; 
+	font-family: 'Kashima';
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/Kashima+RUS.otf');  
+}
+.popup{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.popup:target{
+	opacity: 1;
+	visibility: visible;
+}
+.popup__body{
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 10px;
+}
+.popup__content{
+	background-color: #e4e2c9;
+	color: black;
+	max-width: 800px;
+	padding: 30px;
+	position: relative;
+	border-radius: 10px;
+}
+.popup__close{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 48px;
+	color: #000;
+	text-decoration: none;
+}
+.popup__title{
+	font-size: 48px;
+	text-align: center;
+	margin: 0px 0px 1ex 0px;
+}
+.popup__text{
+	text-align: center;
+	font-size: 36px;
+}
+.marker{
+	transform:scale(2);
+	opacity:0.9;
+	cursor:pointer;
+	vertical-align: middle;
+	accent-color: #bcbba1;
+}
+input.range{
+	vertical-align: middle;
+	width:400px;
+	accent-color: #bcbba1;
+}
+div.resorotpr{
+	display: flex;
+	position: center;
+	justify-content: space-evenly;
+}
+.popup__area{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+input.button{
+	width: 200px;
+	background-color:#bcbba1;
+	border: none;
+	border-radius: 20px;
+	font-family: 'Kashima';
+	font-style: normal;
+	font-weight: 400;
+}
+input.button:hover{
+	transition: 0.3s;
+	width: 200px;
+	background-color:#bcbba1;
+	color:#e4e2c9;
+	border: none;
+	border-radius: 20px;
+	font-family: 'Kashima';
+	font-style: normal;
+	font-weight: 400;
+	justify-self: end;
+}
+input.button_submit{
+	width: 200px;
+	background-color:#bcbba1;
+	border: none;
+	border-radius: 20px;
+	font-family: 'Kashima';
+	font-style: normal;
+	font-weight: 400;
+}
+input.button_submit:hover{
+	transition: 0.3s;
+	width: 200px;
+	background-color:#bcbba1;
+	color:#e4e2c9;
+	border: none;
+	border-radius: 20px;
+	font-family: 'Kashima';
+	font-style: normal;
+	font-weight: 400;
+	justify-self: end;
+}
+input.input{
+	background-color:#bcbba1;
+	border: none;
+	font-family: 'Kashima';
+	font-style: normal;
+	font-weight: 400;
+	width: 100%;
+}
